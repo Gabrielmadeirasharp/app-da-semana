@@ -1,0 +1,14 @@
+{
+  "pedido": {
+    "cabecalho": "*Pedido de atacado · {loja}*\nCliente: {nome} · {cidade}/{uf}\nEnvio: {envio}",
+    "item": "*{produto}* · {cor}: {grade} ({pecas} pç) · {valor}",
+    "rodape": "Total: {pecas} peças · {total}"
+  },
+  "textos": {
+    "colecaoTitulo": "Coleção de verão",
+    "faltaMinimo": "Faltam {falta} para o pedido mínimo",
+    "minimoOk": "Pedido mínimo atingido",
+    "proximaFaixa": "Mais {faltam} pç e o preço cai para {preco}",
+    "enviarSub": "O pedido chega organizado no WhatsApp da loja. A gente confirma estoque e forma de pagamento por lá."
+  }
+}

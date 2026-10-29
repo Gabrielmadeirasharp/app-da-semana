@@ -5,7 +5,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | # | App | Pasta | Link publicado | Status |
 |---|---|---|---|---|
 | 01 | Simulador de Economia Solar (Jangada Solar) | `apps/01-solar` | `/solar/` | ✅ pronto |
-| 02 | Catálogo de Grade para Atacado | `apps/02-atacado` | `/atacado/` | a fazer |
+| 02 | Catálogo de Grade para Atacado (Lua de Algodão) | `apps/02-atacado` | `/atacado/` | ✅ pronto |
 | 03 | Espelho de Vendas | `apps/03-espelho` | `/espelho/` | a fazer |
 | 04 | Monte seu Passeio | `apps/04-passeios` | `/passeios/` | a fazer |
 | 05 | Orçamento de Festa | `apps/05-festa` | `/festa/` | a fazer |
@@ -33,6 +33,14 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Simulação fica só em memória (não há o que guardar entre visitas); `?reset=1` funciona igual pelo template.
 - Pendências: validar tarifa (a Enel Ceará teve reajuste em abr/2026), custo por kWp e fio B com uma integradora real.
 
+## 02 · Atacado
+
+- Marca fictícia **Lua de Algodão** (busca não encontrou confecção com esse nome em Fortaleza).
+- Sem fotos de banco: cada peça é um desenho SVG pintado na cor escolhida (troca de cor ao vivo, zero risco de imagem de marca real). Campo `fotos[]` já aceita fotos reais do cliente.
+- Faixa de preço conta todas as cores da mesma peça (é como o atacado da José Avelino costuma negociar).
+- Botão de enviar só libera depois do pedido mínimo, para a barra ter papel no vídeo.
+- Pendências: fotos reais de um cliente; conferir com lojistas se o mínimo é por valor ou por peças (o config suporta valor).
+
 ## Próximo passo exato
 
-Começar o **App 02 · Atacado**: `cp -r template apps/02-atacado`, ajustar `package.json`/`PREFIXO_STORAGE`, pesquisa rápida (Capim Catalog), `SPEC.md`, telas.
+Começar o **App 03 · Espelho de Vendas**: `cp -r template apps/03-espelho`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Vimob/Hypnobox), `SPEC.md`, telas.

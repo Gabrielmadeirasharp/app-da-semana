@@ -1,0 +1,134 @@
+{
+  "loja": {
+    "local": "Box 214 · Feira da José Avelino, Centro",
+    "pedido_minimo_valor": 600,
+    "prazo_separacao": "Separamos em até 2 dias úteis",
+    "unidade": "Preços por peça. Venda em grade (um de cada tamanho por cor).",
+    "formas_envio": [
+      { "id": "excursao", "rotulo": "Excursão / ônibus", "descricao": "Entregamos no ônibus da sua excursão" },
+      { "id": "transportadora", "rotulo": "Transportadora", "descricao": "Frete por conta do cliente" },
+      { "id": "retirada", "rotulo": "Retirada no box", "descricao": "Você busca na José Avelino" }
+    ]
+  },
+  "categorias": ["Blusas", "Vestidos", "Saias", "Shorts"],
+  "produtos": [
+    {
+      "id": "blusa-ana",
+      "nome": "Blusa Ana",
+      "categoria": "Blusas",
+      "modelo": "blusa",
+      "tecido": "Viscolinho",
+      "fotos": [],
+      "cores": [
+        { "nome": "Azul", "hex": "#3E6FA8" },
+        { "nome": "Rosa", "hex": "#E58FA0" },
+        { "nome": "Off-white", "hex": "#EFE8DA" }
+      ],
+      "tamanhos": ["P", "M", "G", "GG"],
+      "preco_atacado": 35,
+      "faixas": [
+        { "min_pecas": 12, "preco": 32 },
+        { "min_pecas": 24, "preco": 29 }
+      ],
+      "grade_minima": 4
+    },
+    {
+      "id": "cropped-iracema",
+      "nome": "Cropped Iracema",
+      "categoria": "Blusas",
+      "modelo": "cropped",
+      "tecido": "Canelado",
+      "fotos": [],
+      "cores": [
+        { "nome": "Preto", "hex": "#26221F" },
+        { "nome": "Terracota", "hex": "#C4472B" },
+        { "nome": "Verde", "hex": "#5E7D4A" }
+      ],
+      "tamanhos": ["P", "M", "G"],
+      "preco_atacado": 22,
+      "faixas": [
+        { "min_pecas": 12, "preco": 19.9 },
+        { "min_pecas": 30, "preco": 17.5 }
+      ],
+      "grade_minima": 3
+    },
+    {
+      "id": "vestido-mucuripe",
+      "nome": "Vestido Mucuripe",
+      "categoria": "Vestidos",
+      "modelo": "vestido",
+      "tecido": "Linho misto",
+      "fotos": [],
+      "cores": [
+        { "nome": "Areia", "hex": "#D8C3A5" },
+        { "nome": "Verde", "hex": "#5E7D4A" },
+        { "nome": "Preto", "hex": "#26221F" }
+      ],
+      "tamanhos": ["P", "M", "G", "GG"],
+      "preco_atacado": 59,
+      "faixas": [
+        { "min_pecas": 8, "preco": 55 },
+        { "min_pecas": 16, "preco": 51 }
+      ],
+      "grade_minima": 4
+    },
+    {
+      "id": "vestido-lagoa",
+      "nome": "Vestido Lagoa",
+      "categoria": "Vestidos",
+      "modelo": "longo",
+      "tecido": "Viscose estampada",
+      "fotos": [],
+      "cores": [
+        { "nome": "Azul", "hex": "#3E6FA8" },
+        { "nome": "Amarelo", "hex": "#E3B23C" }
+      ],
+      "tamanhos": ["P", "M", "G", "GG"],
+      "preco_atacado": 68,
+      "faixas": [
+        { "min_pecas": 8, "preco": 63 },
+        { "min_pecas": 16, "preco": 58 }
+      ],
+      "grade_minima": 4
+    },
+    {
+      "id": "saia-beira-mar",
+      "nome": "Saia Beira-Mar",
+      "categoria": "Saias",
+      "modelo": "saia",
+      "tecido": "Crepe",
+      "fotos": [],
+      "cores": [
+        { "nome": "Terracota", "hex": "#C4472B" },
+        { "nome": "Off-white", "hex": "#EFE8DA" },
+        { "nome": "Preto", "hex": "#26221F" }
+      ],
+      "tamanhos": ["P", "M", "G", "GG"],
+      "preco_atacado": 39,
+      "faixas": [
+        { "min_pecas": 12, "preco": 36 },
+        { "min_pecas": 24, "preco": 33 }
+      ],
+      "grade_minima": 4
+    },
+    {
+      "id": "short-futuro",
+      "nome": "Short Futuro",
+      "categoria": "Shorts",
+      "modelo": "short",
+      "tecido": "Sarja com elastano",
+      "fotos": [],
+      "cores": [
+        { "nome": "Jeans claro", "hex": "#8EAACB" },
+        { "nome": "Off-white", "hex": "#EFE8DA" }
+      ],
+      "tamanhos": ["36", "38", "40", "42"],
+      "preco_atacado": 45,
+      "faixas": [
+        { "min_pecas": 12, "preco": 41 },
+        { "min_pecas": 24, "preco": 38 }
+      ],
+      "grade_minima": 4
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "nome": "Lua de Algodão",
+  "slogan": "Moda feminina no atacado",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#C4472B",
+    "primaria-escura": "#9C3219",
+    "acento": "#2F5D50",
+    "acento-claro": "#E3EEE9",
+    "fundo": "#FBF8F4",
+    "superficie": "#FFFFFF",
+    "texto": "#1C1917",
+    "suave": "#6B625B",
+    "borda": "#E9E1D8",
+    "alerta": "#B45309"
+  },
+  "fontes": { "titulo": "Fraunces", "corpo": "Instrument Sans" }
+}
