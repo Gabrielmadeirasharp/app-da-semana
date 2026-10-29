@@ -4,7 +4,7 @@
   { "pasta": "03-espelho", "slug": "espelho", "titulo": "Espelho de Vendas", "marca": "Varanda Nove", "nicho": "Construtoras e imobiliárias", "palavra": "ESPELHO", "pronto": true },
   { "pasta": "04-passeios", "slug": "passeios", "titulo": "Monte seu Passeio", "marca": "Rota Duna", "nicho": "Receptivo e bugueiros", "palavra": "PASSEIO", "pronto": true },
   { "pasta": "05-festa", "slug": "festa", "titulo": "Orçamento de Festa", "marca": "Bambolê Festas", "nicho": "Buffets e decoração", "palavra": "FESTA", "pronto": true },
-  { "pasta": "06-guia", "slug": "guia", "titulo": "Guia do Hóspede", "marca": "", "nicho": "Pousadas do litoral", "palavra": "GUIA", "pronto": false },
+  { "pasta": "06-guia", "slug": "guia", "titulo": "Guia do Hóspede", "marca": "Pousada Alpendre", "nicho": "Pousadas do litoral", "palavra": "GUIA", "pronto": true },
   { "pasta": "07-mesa", "slug": "mesa", "titulo": "Pedido na Mesa", "marca": "", "nicho": "Barracas de praia", "palavra": "MESA", "pronto": false },
   { "pasta": "08-oficina", "slug": "oficina", "titulo": "Status do Carro", "marca": "", "nicho": "Oficinas e estética automotiva", "palavra": "OFICINA", "pronto": false },
   { "pasta": "09-pet", "slug": "pet", "titulo": "Banho e Tosa", "marca": "", "nicho": "Pet shops", "palavra": "BANHO", "pronto": false },

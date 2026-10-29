@@ -1,0 +1,14 @@
+{
+  "pedido": {
+    "pt": "Olá, recepção! Sou {nome}, quarto {quarto}. Quero {pedido} {detalhes}",
+    "en": "Hello, front desk! I am {nome}, room {quarto}. I would like {pedido} {detalhes}"
+  },
+  "detalhesPasseio": {
+    "pt": "para {pessoas} pessoa(s), {quando}.",
+    "en": "for {pessoas} person(s), {quando}."
+  },
+  "prefixoPasseio": {
+    "pt": "reservar o passeio",
+    "en": "to book the tour"
+  }
+}

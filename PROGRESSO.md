@@ -9,7 +9,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 03 | Espelho de Vendas (Varanda Nove) | `apps/03-espelho` | `/espelho/` | ✅ pronto |
 | 04 | Monte seu Passeio (Rota Duna) | `apps/04-passeios` | `/passeios/` | ✅ pronto |
 | 05 | Orçamento de Festa (Bambolê Festas) | `apps/05-festa` | `/festa/` | ✅ pronto |
-| 06 | Guia do Hóspede | `apps/06-guia` | `/guia/` | a fazer |
+| 06 | Guia do Hóspede (Pousada Alpendre) | `apps/06-guia` | `/guia/` | ✅ pronto |
 | 07 | Pedido na Mesa | `apps/07-mesa` | `/mesa/` | a fazer |
 | 08 | Status do Carro | `apps/08-oficina` | `/oficina/` | a fazer |
 | 09 | Banho e Tosa | `apps/09-pet` | `/pet/` | a fazer |
@@ -65,6 +65,14 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Convidados andam de 5 em 5 para o vídeo chegar em 60 com 3 toques; valor "pisca" quando muda.
 - Pendências: agenda real; fotos de decoração do cliente.
 
+## 06 · Guia
+
+- Pousada fictícia **Pousada Alpendre** em Jericoacoara. O primeiro nome pensado ("Vento Leste") já existe em Jeri e foi descartado.
+- Hóspede vem da URL (`?h=Ana&q=12&saida=...`), PT/EN com `idiomas.json` + campos `{pt, en}` no `dados.json`; teste garante que as duas línguas têm as mesmas chaves.
+- Convite de avaliação no Google para todos no último dia (`saida` ou `ultimo=1`), sem filtrar por nota.
+- Painel de reserva do passeio usa portal no `<body>`: a animação de troca de tela fazia o `position: fixed` ficar preso dentro da tela.
+- PWA offline ficou de fora (dependência extra com risco de compatibilidade com o Vite 8). Restaurantes e coordenadas são fictícios.
+
 ## Próximo passo exato
 
-Começar o **App 06 · Guia do Hóspede**: `cp -r template apps/06-guia`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Touch Stay/Hostfully), `SPEC.md`, telas, PT/EN.
+Começar o **App 07 · Pedido na Mesa**: `cp -r template apps/07-mesa`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (QR Menu Card: conferir licença), `SPEC.md`, telas, rota `#/qr`. Atenção: qualquer modal/painel fixo deve usar portal (ver 06).

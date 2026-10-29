@@ -1,0 +1,65 @@
+{
+  "local": "Rua das Dunas, Jericoacoara",
+  "avaliacao_google": "https://www.google.com/search?q=avaliar+pousada",
+  "wifi": { "rede": "Alpendre_Hospedes", "senha": "brisa2026" },
+  "horarios": [
+    { "id": "cafe", "icone": "coffee", "titulo": { "pt": "Café da manhã", "en": "Breakfast" }, "valor": { "pt": "7h às 10h30, no alpendre", "en": "7 to 10:30 am, on the porch" } },
+    { "id": "checkin", "icone": "key", "titulo": { "pt": "Check-in", "en": "Check-in" }, "valor": { "pt": "a partir das 14h", "en": "from 2 pm" } },
+    { "id": "checkout", "icone": "door", "titulo": { "pt": "Check-out", "en": "Check-out" }, "valor": { "pt": "até 12h", "en": "until noon" } },
+    { "id": "piscina", "icone": "waves", "titulo": { "pt": "Piscina", "en": "Pool" }, "valor": { "pt": "8h às 22h", "en": "8 am to 10 pm" } }
+  ],
+  "regras": {
+    "pt": ["Silêncio a partir das 22h", "Toalhas de piscina ficam na recepção", "Não é permitido fumar nos quartos", "Areia: tem lava-pés na entrada"],
+    "en": ["Quiet hours after 10 pm", "Pool towels at the front desk", "No smoking in the rooms", "Sandy feet? There is a foot wash at the entrance"]
+  },
+  "contatos": [
+    { "titulo": { "pt": "Recepção 24h", "en": "Front desk 24h" }, "valor": "(85) 99999-9999" },
+    { "titulo": { "pt": "SAMU", "en": "Ambulance" }, "valor": "192" },
+    { "titulo": { "pt": "Bombeiros", "en": "Fire department" }, "valor": "193" }
+  ],
+  "passeios": [
+    {
+      "id": "por-do-sol",
+      "nome": { "pt": "Pôr do sol na duna", "en": "Sunset at the dune" },
+      "descricao": { "pt": "Buggy até a Duna do Pôr do Sol com volta pela praia", "en": "Buggy to the Sunset Dune, back along the beach" },
+      "horario": { "pt": "Saída 16h30", "en": "Leaves 4:30 pm" },
+      "preco": 60,
+      "cena": "por-do-sol"
+    },
+    {
+      "id": "lagoa-paraiso",
+      "nome": { "pt": "Lagoa do Paraíso", "en": "Paradise Lagoon" },
+      "descricao": { "pt": "Redes dentro da água e almoço na beira da lagoa", "en": "Hammocks in the water and lunch by the lagoon" },
+      "horario": { "pt": "Saída 9h", "en": "Leaves 9 am" },
+      "preco": 120,
+      "cena": "lagoa"
+    },
+    {
+      "id": "pedra-furada",
+      "nome": { "pt": "Trilha da Pedra Furada", "en": "Pedra Furada trail" },
+      "descricao": { "pt": "Caminhada guiada pela costa, 1h30", "en": "Guided coastal walk, 1h30" },
+      "horario": { "pt": "Saída 7h ou 15h", "en": "Leaves 7 am or 3 pm" },
+      "preco": 50,
+      "cena": "pedra"
+    },
+    {
+      "id": "kite",
+      "nome": { "pt": "Aula de kitesurf", "en": "Kitesurf lesson" },
+      "descricao": { "pt": "Aula de 2h com instrutor e equipamento", "en": "2-hour lesson with instructor and gear" },
+      "horario": { "pt": "Manhã ou tarde", "en": "Morning or afternoon" },
+      "preco": 250,
+      "cena": "kite"
+    }
+  ],
+  "indicacoes": [
+    { "nome": "Cantina da Areia", "tipo": { "pt": "Massas e peixe", "en": "Pasta and fish" }, "dica": { "pt": "Peça o peixe do dia", "en": "Try the catch of the day" }, "lat": -2.7962, "lng": -40.5131 },
+    { "nome": "Tapiocaria da Vila", "tipo": { "pt": "Tapioca e café", "en": "Tapioca and coffee" }, "dica": { "pt": "Boa para o fim da tarde", "en": "Great for late afternoon" }, "lat": -2.7958, "lng": -40.5145 },
+    { "nome": "Barraca Coqueiro Torto", "tipo": { "pt": "Petiscos na praia", "en": "Beach snacks" }, "dica": { "pt": "Melhor vista para o pôr do sol", "en": "Best sunset view" }, "lat": -2.7944, "lng": -40.5168 }
+  ],
+  "pedidos": [
+    { "id": "toalha", "icone": "bath", "titulo": { "pt": "Toalha extra", "en": "Extra towel" }, "texto": { "pt": "uma toalha extra", "en": "an extra towel" } },
+    { "id": "late", "icone": "clock", "titulo": { "pt": "Sair mais tarde", "en": "Late check-out" }, "texto": { "pt": "fazer check-out mais tarde, até as 15h, se possível", "en": "a late check-out, until 3 pm if possible" } },
+    { "id": "transfer", "icone": "car", "titulo": { "pt": "Transfer", "en": "Transfer" }, "texto": { "pt": "um transfer para o aeroporto de Jericoacoara", "en": "a transfer to Jericoacoara airport" } },
+    { "id": "limpeza", "icone": "sparkles", "titulo": { "pt": "Arrumar o quarto", "en": "Room cleaning" }, "texto": { "pt": "que arrumem o quarto hoje", "en": "my room to be cleaned today" } }
+  ]
+}

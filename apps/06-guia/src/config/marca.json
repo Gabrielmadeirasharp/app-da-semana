@@ -1,0 +1,20 @@
+{
+  "nome": "Pousada Alpendre",
+  "slogan": "Guia do hóspede",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Jericoacoara",
+  "cores": {
+    "primaria": "#D9703A",
+    "primaria-escura": "#B0541F",
+    "acento": "#2F6F73",
+    "acento-claro": "#DCEBEA",
+    "fundo": "#F7F1E6",
+    "superficie": "#FFFDF8",
+    "texto": "#1E2B2F",
+    "suave": "#5F6B6C",
+    "borda": "#E8DDCB",
+    "alerta": "#B42318"
+  },
+  "fontes": { "titulo": "Young Serif", "corpo": "Albert Sans" }
+}
