@@ -1,0 +1,30 @@
+{
+  "modalidade": "Jiu-jitsu",
+  "aulas_por_grau": 30,
+  "graus_por_faixa": 4,
+  "dias_para_sumido": 14,
+  "aluno_logado": "lucas",
+  "faixas": [
+    { "id": "branca", "nome": "Branca", "cor": "#F3F1EC", "ponta": "#151515" },
+    { "id": "azul", "nome": "Azul", "cor": "#1E4FA3", "ponta": "#151515" },
+    { "id": "roxa", "nome": "Roxa", "cor": "#6B2FA0", "ponta": "#151515" },
+    { "id": "marrom", "nome": "Marrom", "cor": "#6B4226", "ponta": "#151515" },
+    { "id": "preta", "nome": "Preta", "cor": "#151515", "ponta": "#B3261E" }
+  ],
+  "alunos": [
+    { "id": "lucas", "nome": "Lucas Andrade", "faixa": "azul", "graus": 2, "aulas_desde_grau": 26, "dias_sem_treinar": 1, "mensalidade": { "situacao": "em_dia", "vence": "2026-11-05" }, "presencas_mes": [2, 3, 6, 8, 9, 13, 15, 16, 20, 22, 23, 27], "whatsapp": "5585999999999" },
+    { "id": "carla", "nome": "Carla Menezes", "faixa": "branca", "graus": 4, "aulas_desde_grau": 31, "dias_sem_treinar": 2, "mensalidade": { "situacao": "em_dia", "vence": "2026-11-10" }, "whatsapp": "5585999999999" },
+    { "id": "rafael", "nome": "Rafael Costa", "faixa": "azul", "graus": 3, "aulas_desde_grau": 33, "dias_sem_treinar": 3, "mensalidade": { "situacao": "vence_logo", "vence": "2026-11-01" }, "whatsapp": "5585999999999" },
+    { "id": "bia", "nome": "Beatriz Lima", "faixa": "roxa", "graus": 1, "aulas_desde_grau": 12, "dias_sem_treinar": 19, "mensalidade": { "situacao": "atrasada", "vence": "2026-10-20" }, "whatsapp": "5585999999999" },
+    { "id": "joao", "nome": "João Pedro", "faixa": "branca", "graus": 1, "aulas_desde_grau": 8, "dias_sem_treinar": 23, "mensalidade": { "situacao": "atrasada", "vence": "2026-10-15" }, "whatsapp": "5585999999999" },
+    { "id": "marina", "nome": "Marina Rocha", "faixa": "branca", "graus": 2, "aulas_desde_grau": 18, "dias_sem_treinar": 4, "mensalidade": { "situacao": "em_dia", "vence": "2026-11-12" }, "whatsapp": "5585999999999" },
+    { "id": "thiago", "nome": "Thiago Nunes", "faixa": "marrom", "graus": 4, "aulas_desde_grau": 30, "dias_sem_treinar": 1, "mensalidade": { "situacao": "em_dia", "vence": "2026-11-08" }, "whatsapp": "5585999999999" },
+    { "id": "davi", "nome": "Davi Souza", "faixa": "azul", "graus": 0, "aulas_desde_grau": 5, "dias_sem_treinar": 16, "mensalidade": { "situacao": "vence_logo", "vence": "2026-10-31" }, "whatsapp": "5585999999999" }
+  ],
+  "situacoes": {
+    "em_dia": { "rotulo": "Em dia", "cor": "#1F7A4D" },
+    "vence_logo": { "rotulo": "Vence em breve", "cor": "#C98A00" },
+    "atrasada": { "rotulo": "Atrasada", "cor": "#B3261E" }
+  },
+  "valor_mensalidade": 180
+}

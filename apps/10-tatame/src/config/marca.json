@@ -1,0 +1,20 @@
+{
+  "nome": "Arena Mandacaru",
+  "slogan": "Jiu-jitsu",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#B3261E",
+    "primaria-escura": "#8C1B15",
+    "acento": "#1F3A5F",
+    "acento-claro": "#E3EAF3",
+    "fundo": "#F4F1EC",
+    "superficie": "#FFFFFF",
+    "texto": "#151515",
+    "suave": "#5F5A55",
+    "borda": "#E2DCD3",
+    "alerta": "#C2410C"
+  },
+  "fontes": { "titulo": "Oswald", "corpo": "IBM Plex Sans" }
+}

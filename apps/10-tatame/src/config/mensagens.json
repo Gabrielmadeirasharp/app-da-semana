@@ -1,0 +1,19 @@
+{
+  "sumido": "Fala, {aluno}! Sentimos sua falta no tatame. Bora voltar essa semana?",
+  "lembrete": "Oi, {aluno}! Passando para lembrar da mensalidade de {valor}, com vencimento em {vence}. Se já pagou, desconsidere. Oss!",
+  "graduacao": "Fala, {aluno}! Você completou as aulas para o próximo grau. Vamos marcar a graduação?",
+  "textos": {
+    "checkinTitulo": "Check-in",
+    "checkinSub": "Aponte a câmera para o QR do tatame.",
+    "simular": "Simular leitura do QR",
+    "confirmado": "Presença confirmada. Oss!",
+    "proximoGrau": "Próximo grau",
+    "faltam": "Faltam {n} aulas",
+    "pronto": "Pronto para graduar",
+    "presencasMes": "Presenças em {mes}",
+    "painelTitulo": "Painel do professor",
+    "prontos": "Prontos para graduar",
+    "sumidos": "Sem treinar há {dias}+ dias",
+    "mensalidadesTitulo": "Mensalidades"
+  }
+}
