@@ -1,0 +1,11 @@
+{
+  "orcamento": "Quero um orçamento: {tipo} em {data}, {adultos} adultos e {criancas} crianças. Pacote {pacote}, tema {tema}. Extras: {extras}. Valor estimado: {total}. A data está livre?",
+  "textos": {
+    "capaTitulo": "Vamos montar sua festa",
+    "capaSub": "Escolha o tipo, a data e quantos convidados. O valor vai aparecendo enquanto você monta.",
+    "semExtras": "nenhum",
+    "dataConcorrida": "Essa data costuma lotar rápido. Vale confirmar logo.",
+    "dataTranquila": "Data com boa disponibilidade.",
+    "resumoSub": "Valor estimado. A gente confirma a data e fecha os detalhes pelo WhatsApp."
+  }
+}

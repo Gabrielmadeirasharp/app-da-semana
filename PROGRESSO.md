@@ -8,7 +8,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 02 | Catálogo de Grade para Atacado (Lua de Algodão) | `apps/02-atacado` | `/atacado/` | ✅ pronto |
 | 03 | Espelho de Vendas (Varanda Nove) | `apps/03-espelho` | `/espelho/` | ✅ pronto |
 | 04 | Monte seu Passeio (Rota Duna) | `apps/04-passeios` | `/passeios/` | ✅ pronto |
-| 05 | Orçamento de Festa | `apps/05-festa` | `/festa/` | a fazer |
+| 05 | Orçamento de Festa (Bambolê Festas) | `apps/05-festa` | `/festa/` | ✅ pronto |
 | 06 | Guia do Hóspede | `apps/06-guia` | `/guia/` | a fazer |
 | 07 | Pedido na Mesa | `apps/07-mesa` | `/mesa/` | a fazer |
 | 08 | Status do Carro | `apps/08-oficina` | `/oficina/` | a fazer |
@@ -57,6 +57,14 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Barra de ação de todos os apps (e do template) ficou 100% opaca: texto rolando por trás aparecia no vídeo.
 - Pendências: agenda real; sinal por Pix.
 
+## 05 · Festa
+
+- Buffet fictício **Bambolê Festas** (busca não encontrou buffet com esse nome em Fortaleza).
+- Os três formatos de pacote do Oni viraram três pacotes de exemplo (Essencial = fixo, Festa Completa = faixa, Premium = por pessoa); qualquer buffet se encaixa trocando só o JSON.
+- Temas sem imagem de banco: capa gerada com 3 cores + ícone Lucide (zero risco de personagem licenciado).
+- Convidados andam de 5 em 5 para o vídeo chegar em 60 com 3 toques; valor "pisca" quando muda.
+- Pendências: agenda real; fotos de decoração do cliente.
+
 ## Próximo passo exato
 
-Começar o **App 05 · Orçamento de Festa**: `cp -r template apps/05-festa`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Oni: três tipos de pacote), `SPEC.md`, telas.
+Começar o **App 06 · Guia do Hóspede**: `cp -r template apps/06-guia`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Touch Stay/Hostfully), `SPEC.md`, telas, PT/EN.

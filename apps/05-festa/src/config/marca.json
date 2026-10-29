@@ -1,0 +1,20 @@
+{
+  "nome": "Bambolê Festas",
+  "slogan": "Buffet e decoração",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#F2545B",
+    "primaria-escura": "#C8323A",
+    "acento": "#1E9E8B",
+    "acento-claro": "#DDF4EF",
+    "fundo": "#FFF8F1",
+    "superficie": "#FFFFFF",
+    "texto": "#2B2233",
+    "suave": "#6E6473",
+    "borda": "#F0E2D6",
+    "alerta": "#C2410C"
+  },
+  "fontes": { "titulo": "Baloo 2", "corpo": "DM Sans" }
+}

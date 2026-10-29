@@ -1,0 +1,69 @@
+{
+  "local": "Salão no Cambeba, Fortaleza",
+  "tipos": [
+    { "id": "infantil", "rotulo": "Infantil", "icone": "party" },
+    { "id": "15anos", "rotulo": "15 anos", "icone": "sparkles" },
+    { "id": "adulto", "rotulo": "Adulto", "icone": "wine" },
+    { "id": "cha", "rotulo": "Chá revelação", "icone": "baby" }
+  ],
+  "convidados_padrao": { "adultos": 30, "criancas": 15 },
+  "pacotes": [
+    {
+      "id": "essencial",
+      "nome": "Essencial",
+      "tipo": "fixo",
+      "preco": 3900,
+      "max_convidados": 50,
+      "excedente_por_pessoa": 45,
+      "resumo": "Valor fechado até 50 convidados",
+      "inclui": ["Salão por 4 horas", "Decoração clean", "Salgados e refrigerante", "Equipe de garçons"]
+    },
+    {
+      "id": "completa",
+      "nome": "Festa Completa",
+      "tipo": "faixa",
+      "faixas": [
+        { "ate": 50, "preco": 5400 },
+        { "ate": 60, "preco": 6200 },
+        { "ate": 70, "preco": 6900 },
+        { "ate": 80, "preco": 7600 }
+      ],
+      "excedente_por_pessoa": 85,
+      "resumo": "Valor por faixa de convidados",
+      "inclui": ["Salão por 5 horas", "Decoração temática", "Buffet completo e sucos", "Bolo cenográfico", "Dois monitores"],
+      "destaque": "Mais escolhido"
+    },
+    {
+      "id": "premium",
+      "nome": "Premium",
+      "tipo": "por_pessoa",
+      "preco_adulto": 129,
+      "fator_crianca": 0.5,
+      "minimo_pessoas": 50,
+      "resumo": "Por pessoa, criança paga meia",
+      "inclui": ["Salão por 6 horas", "Decoração assinada", "Jantar e mesa de doces finos", "Drinks sem álcool", "DJ e iluminação"]
+    }
+  ],
+  "temas": [
+    { "id": "fundo-mar", "nome": "Fundo do mar", "icone": "fish", "cores": ["#2F80B7", "#7FD3E0", "#F7E6A6"], "tipos": ["infantil", "cha"] },
+    { "id": "safari", "nome": "Safári", "icone": "trees", "cores": ["#5E7D4A", "#E3B23C", "#C46A2D"], "tipos": ["infantil"] },
+    { "id": "circo", "nome": "Circo", "icone": "tent", "cores": ["#E4473B", "#F7D046", "#2E6FB7"], "tipos": ["infantil"] },
+    { "id": "espaco", "nome": "Espacial", "icone": "rocket", "cores": ["#1F2A44", "#F2A541", "#8C9EFF"], "tipos": ["infantil", "15anos"] },
+    { "id": "jardim", "nome": "Jardim", "icone": "flower", "cores": ["#F4A3B5", "#79B26B", "#FBE7C6"], "tipos": ["infantil", "cha", "15anos"] },
+    { "id": "neon", "nome": "Neon", "icone": "music", "cores": ["#1B1530", "#FF4FA3", "#3EF0D6"], "tipos": ["15anos", "adulto"] },
+    { "id": "boteco", "nome": "Boteco", "icone": "beer", "cores": ["#C0392B", "#F5D76E", "#2C3E50"], "tipos": ["adulto"] },
+    { "id": "tropical", "nome": "Tropical", "icone": "palmtree", "cores": ["#1E9E8B", "#F2545B", "#FFD166"], "tipos": ["adulto", "15anos", "infantil"] },
+    { "id": "abelhinha", "nome": "Abelhinha", "icone": "heart", "cores": ["#F6C13B", "#3B3B3B", "#FFF4D6"], "tipos": ["cha", "infantil"] }
+  ],
+  "extras": [
+    { "id": "animacao", "rotulo": "Animação", "descricao": "Recreação com 2 animadores, 3 horas", "preco": 650, "tipo": "fixo" },
+    { "id": "lembrancinhas", "rotulo": "Lembrancinhas", "descricao": "Kit personalizado por convidado", "preco": 9, "tipo": "por_convidado" },
+    { "id": "bolo", "rotulo": "Bolo de verdade", "descricao": "Bolo recheado para todos", "preco": 7, "tipo": "por_convidado" },
+    { "id": "foto", "rotulo": "Fotografia e filmagem", "descricao": "Cobertura completa + vídeo curto", "preco": 1200, "tipo": "fixo" },
+    { "id": "pula", "rotulo": "Pula-pula e piscina de bolinhas", "descricao": "Brinquedos extras no salão", "preco": 280, "tipo": "fixo" }
+  ],
+  "datas_concorridas": {
+    "dias_semana": [6],
+    "datas": ["2026-12-05", "2026-12-12", "2026-12-13", "2026-12-19", "2027-01-09", "2027-01-16"]
+  }
+}
