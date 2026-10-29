@@ -6,7 +6,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 |---|---|---|---|---|
 | 01 | Simulador de Economia Solar (Jangada Solar) | `apps/01-solar` | `/solar/` | ✅ pronto |
 | 02 | Catálogo de Grade para Atacado (Lua de Algodão) | `apps/02-atacado` | `/atacado/` | ✅ pronto |
-| 03 | Espelho de Vendas | `apps/03-espelho` | `/espelho/` | a fazer |
+| 03 | Espelho de Vendas (Varanda Nove) | `apps/03-espelho` | `/espelho/` | ✅ pronto |
 | 04 | Monte seu Passeio | `apps/04-passeios` | `/passeios/` | a fazer |
 | 05 | Orçamento de Festa | `apps/05-festa` | `/festa/` | a fazer |
 | 06 | Guia do Hóspede | `apps/06-guia` | `/guia/` | a fazer |
@@ -41,6 +41,14 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Botão de enviar só libera depois do pedido mínimo, para a barra ter papel no vídeo.
 - Pendências: fotos reais de um cliente; conferir com lojistas se o mínimo é por valor ou por peças (o config suporta valor).
 
+## 03 · Espelho
+
+- Incorporadora fictícia **Varanda Nove**, empreendimento **Vértice Cocó** (busca não encontrou nenhum dos dois em Fortaleza).
+- Duas torres (18 e 14 andares, 4 finais) geradas por código; status por semente fixa (mulberry32) dá 53 vendidas, 10 reservadas, 65 disponíveis.
+- ID da unidade leva o bloco (`A-1801`) porque com duas torres o número sozinho se repete.
+- Simulador: entrada %, 15% do preço em 26 mensais de obra, saldo financiado em 30 anos (Price, 11,5% a.a.).
+- Pendências: status real vindo do comercial; trava de reserva.
+
 ## Próximo passo exato
 
-Começar o **App 03 · Espelho de Vendas**: `cp -r template apps/03-espelho`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Vimob/Hypnobox), `SPEC.md`, telas.
+Começar o **App 04 · Monte seu Passeio**: `cp -r template apps/04-passeios`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (FareHarbor), `SPEC.md`, telas.

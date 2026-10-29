@@ -1,0 +1,20 @@
+{
+  "nome": "Varanda Nove",
+  "slogan": "Espelho de vendas",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#1F4B3F",
+    "primaria-escura": "#143329",
+    "acento": "#B8935A",
+    "acento-claro": "#F1EADB",
+    "fundo": "#F5F4F0",
+    "superficie": "#FFFFFF",
+    "texto": "#121A17",
+    "suave": "#5F6662",
+    "borda": "#E2E0D8",
+    "alerta": "#B45309"
+  },
+  "fontes": { "titulo": "Schibsted Grotesk", "corpo": "Manrope" }
+}

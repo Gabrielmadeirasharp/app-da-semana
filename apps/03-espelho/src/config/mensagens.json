@@ -1,0 +1,8 @@
+{
+  "reserva": "Reserva: {empreendimento}, unidade {unidade} (bloco {bloco}, {area} m², {tipologia}). Simulação: entrada {entrada}, {n} mensais de {mensal} até a entrega, saldo {saldo}. Corretor: {corretor}. Cliente: {cliente}.",
+  "textos": {
+    "reservarSub": "O comercial confirma a reserva pelo WhatsApp e segura a unidade por 24 horas.",
+    "linkCopiado": "Link copiado. Mande para o seu cliente.",
+    "unidadeVendida": "Esta unidade já foi vendida. Volte ao espelho e escolha uma verde."
+  }
+}

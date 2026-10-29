@@ -1,7 +1,7 @@
 [
   { "pasta": "01-solar", "slug": "solar", "titulo": "Simulador de Economia Solar", "marca": "Jangada Solar", "nicho": "Integradoras de energia solar", "palavra": "SOL", "pronto": true },
   { "pasta": "02-atacado", "slug": "atacado", "titulo": "Catálogo de Grade para Atacado", "marca": "Lua de Algodão", "nicho": "Moda atacado · José Avelino", "palavra": "GRADE", "pronto": true },
-  { "pasta": "03-espelho", "slug": "espelho", "titulo": "Espelho de Vendas", "marca": "", "nicho": "Construtoras e imobiliárias", "palavra": "ESPELHO", "pronto": false },
+  { "pasta": "03-espelho", "slug": "espelho", "titulo": "Espelho de Vendas", "marca": "Varanda Nove", "nicho": "Construtoras e imobiliárias", "palavra": "ESPELHO", "pronto": true },
   { "pasta": "04-passeios", "slug": "passeios", "titulo": "Monte seu Passeio", "marca": "", "nicho": "Receptivo e bugueiros", "palavra": "PASSEIO", "pronto": false },
   { "pasta": "05-festa", "slug": "festa", "titulo": "Orçamento de Festa", "marca": "", "nicho": "Buffets e decoração", "palavra": "FESTA", "pronto": false },
   { "pasta": "06-guia", "slug": "guia", "titulo": "Guia do Hóspede", "marca": "", "nicho": "Pousadas do litoral", "palavra": "GUIA", "pronto": false },

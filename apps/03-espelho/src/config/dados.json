@@ -1,0 +1,26 @@
+{
+  "empreendimento": {
+    "nome": "Vértice Cocó",
+    "bairro": "Cocó, Fortaleza",
+    "descricao": "Duas torres a 400 m do Parque do Cocó, com lazer no rooftop.",
+    "obra_percentual": 62,
+    "entrega": "Dezembro de 2028",
+    "diferenciais": ["Rooftop com piscina", "Coworking", "Pet place", "Bicicletário"]
+  },
+  "status": [
+    { "id": "disponivel", "rotulo": "Disponível", "cor": "#2E9E5B" },
+    { "id": "reservada", "rotulo": "Reservada", "cor": "#E3A21A" },
+    { "id": "vendida", "rotulo": "Vendida", "cor": "#C9C5BC" }
+  ],
+  "distribuicao": { "semente": 2026, "vendida": 0.4, "reservada": 0.1 },
+  "tipologias": [
+    { "id": "3q", "rotulo": "3 quartos", "area": 92, "suites": 2, "vagas": 2, "finais": ["01", "04"], "preco_m2": 9800 },
+    { "id": "2q", "rotulo": "2 quartos", "area": 68, "suites": 1, "vagas": 1, "finais": ["02", "03"], "preco_m2": 10200 }
+  ],
+  "sol_por_final": { "01": "Nascente total", "02": "Nascente", "03": "Poente", "04": "Poente com vista do parque" },
+  "acrescimo_por_andar": 0.006,
+  "blocos": [
+    { "id": "A", "nome": "Torre Parque", "andares": 18, "finais": ["01", "02", "03", "04"] },
+    { "id": "B", "nome": "Torre Dunas", "andares": 14, "finais": ["01", "02", "03", "04"] }
+  ]
+}

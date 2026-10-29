@@ -1,0 +1,10 @@
+{
+  "_obs": "Valores ilustrativos. Cada incorporadora tem sua tabela de vendas: ajuste com o comercial.",
+  "entrada_minima": 0.1,
+  "entrada_maxima": 0.5,
+  "entrada_padrao": 0.2,
+  "percentual_mensais_obra": 0.15,
+  "meses_ate_entrega": 26,
+  "taxa_anual_financiamento": 0.115,
+  "prazo_financiamento_meses": 360
+}
