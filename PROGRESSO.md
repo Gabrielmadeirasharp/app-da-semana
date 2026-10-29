@@ -15,7 +15,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 09 | Banho e Tosa (Pata de Areia) | `apps/09-pet` | `/pet/` | ✅ pronto |
 | 10 | Tatame (Arena Mandacaru) | `apps/10-tatame` | `/tatame/` | ✅ pronto |
 
-Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depois do primeiro deploy).
+Link publicado = `https://gabrielmadeirasharp.github.io/app-da-semana` + caminho da tabela. Repositório: https://github.com/Gabrielmadeirasharp/app-da-semana
 
 ## Decisões gerais
 
@@ -104,32 +104,33 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Check-in simulado ("Simular leitura do QR") soma +1 aula ao aluno logado e marca o dia no calendário.
 - Critério de graduação, limite de "sumido" e textos das mensagens ficam no JSON.
 
-## Publicar no GitHub Pages (falta fazer)
+## Publicação (GitHub Pages)
 
-O repositório ainda não está no GitHub (não publiquei nada sozinho). Com o `gh` já logado, na pasta do projeto:
+Publicado em 29/10/2026. Cada push na `main` roda testes, builda e publica de novo (workflow `.github/workflows/pages.yml`).
 
-```bash
-gh repo create app-da-semana --public --source . --push
-gh api -X POST repos/{owner}/app-da-semana/pages -f build_type=workflow
-gh run watch
-```
+- Galeria: https://gabrielmadeirasharp.github.io/app-da-semana/
+- https://gabrielmadeirasharp.github.io/app-da-semana/solar/
+- https://gabrielmadeirasharp.github.io/app-da-semana/atacado/
+- https://gabrielmadeirasharp.github.io/app-da-semana/espelho/
+- https://gabrielmadeirasharp.github.io/app-da-semana/passeios/
+- https://gabrielmadeirasharp.github.io/app-da-semana/festa/
+- https://gabrielmadeirasharp.github.io/app-da-semana/guia/
+- https://gabrielmadeirasharp.github.io/app-da-semana/mesa/
+- https://gabrielmadeirasharp.github.io/app-da-semana/oficina/
+- https://gabrielmadeirasharp.github.io/app-da-semana/pet/
+- https://gabrielmadeirasharp.github.io/app-da-semana/tatame/
 
-(o segundo comando liga o Pages no modo "GitHub Actions"; se der erro, faça em Settings → Pages → Source: GitHub Actions e rode `gh workflow run pages.yml`.)
-
-Links depois do deploy: `https://<usuario>.github.io/app-da-semana/` (galeria) e `.../solar/`, `.../atacado/`, `.../espelho/`, `.../passeios/`, `.../festa/`, `.../guia/`, `.../mesa/`, `.../oficina/`, `.../pet/`, `.../tatame/`.
-
-Links prontos para o vídeo (estado inicial limpo):
-- Guia: `.../guia/?reset=1&h=Ana&q=12&ultimo=1`
-- Mesa: `.../mesa/?reset=1&mesa=4&demo=1`
-- Oficina: `.../oficina/?reset=1&os=1234&demo=1`
-- Demais: `.../<slug>/?reset=1`
+Links prontos para gravar (estado inicial limpo):
+- Guia: https://gabrielmadeirasharp.github.io/app-da-semana/guia/?reset=1&h=Ana&q=12&ultimo=1
+- Mesa: https://gabrielmadeirasharp.github.io/app-da-semana/mesa/?reset=1&mesa=4&demo=1
+- Oficina: https://gabrielmadeirasharp.github.io/app-da-semana/oficina/?reset=1&os=1234&demo=1
+- Demais: `https://gabrielmadeirasharp.github.io/app-da-semana/<slug>/?reset=1`
 
 ## Pendências do Gabriel
 
 1. **Número do WhatsApp** da demonstração: trocar `5585999999999` em `apps/*/src/config/marca.json` (e em `apps/10-tatame/src/config/dados.json`, campo `whatsapp` dos alunos).
-2. Criar o repositório e ligar o Pages (comandos acima).
-3. Validar números de nicho com clientes reais: tarifa/custo do solar, tabela de vendas do espelho, preços de passeios e buffets.
+2. Validar números de nicho com clientes reais: tarifa/custo do solar, tabela de vendas do espelho, preços de passeios e buffets.
 
 ## Próximo passo exato
 
-Todos os 10 apps estão prontos. Próximos passos sugeridos: publicar (comandos acima), trocar o número do WhatsApp e gravar os Reels na ordem 01 → 10.
+Todos os 10 apps estão prontos. Todos publicados. Próximos passos: trocar o número do WhatsApp (o push republica sozinho) e gravar os Reels na ordem 01 → 10.
