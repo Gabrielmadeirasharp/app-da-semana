@@ -1,0 +1,13 @@
+{
+  "proposta": "Olá! Fiz a simulação no site. Conta média de {conta}, {tipo} no bairro {bairro}. Resultado: {placas} placas ({kwp} kWp), economia estimada de {economia}/mês e parcela de {parcela} em {n}x. Quero receber uma proposta. {nome}",
+  "textos": {
+    "capaTitulo": "Quanto você paga de luz?",
+    "capaSub": "Arraste ou digite o valor médio da sua conta. A gente mostra na hora quanto dá para economizar com energia solar.",
+    "resultadoTitulo": "Sua conta pode cair para",
+    "parcelaTitulo": "A parcela cabe no lugar da conta",
+    "parcelaMenor": "A parcela fica {diferenca} menor que a sua conta de hoje.",
+    "parcelaMaior": "A parcela fica {diferenca} acima da conta. Um prazo maior ajuda.",
+    "propostaTitulo": "Receba sua proposta",
+    "propostaSub": "Um consultor confirma os números com a sua conta de luz e responde pelo WhatsApp."
+  }
+}

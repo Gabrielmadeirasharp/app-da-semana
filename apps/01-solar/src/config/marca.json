@@ -1,0 +1,23 @@
+{
+  "nome": "Jangada Solar",
+  "slogan": "Energia do sol para Fortaleza",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#F2A516",
+    "primaria-escura": "#C97F00",
+    "acento": "#0E6B5C",
+    "acento-claro": "#DCEFE9",
+    "fundo": "#F7F2E8",
+    "superficie": "#FFFFFF",
+    "texto": "#16262B",
+    "suave": "#5E6B6E",
+    "borda": "#E4DCCB",
+    "alerta": "#C2410C"
+  },
+  "fontes": {
+    "titulo": "Bricolage Grotesque",
+    "corpo": "Figtree"
+  }
+}

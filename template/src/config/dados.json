@@ -1,0 +1,6 @@
+{
+  "itens": [
+    { "id": "a", "nome": "Item A", "preco": 50 },
+    { "id": "b", "nome": "Item B", "preco": 80 }
+  ]
+}

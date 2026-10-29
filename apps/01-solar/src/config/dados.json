@@ -1,0 +1,16 @@
+{
+  "tiposImovel": [
+    { "id": "casa", "rotulo": "Casa", "descricao": "Residencial, bifásico" },
+    { "id": "comercio", "rotulo": "Comércio", "descricao": "Loja, escritório, trifásico" }
+  ],
+  "bairros": [
+    "Aldeota", "Meireles", "Cocó", "Fátima", "Benfica", "Parquelândia", "Messejana", "Cambeba",
+    "Papicu", "Praia de Iracema", "Dionísio Torres", "Cidade dos Funcionários", "Edson Queiroz",
+    "Água Fria", "Guararapes", "Montese", "Parangaba", "Maraponga", "Passaré", "Sapiranga",
+    "Barra do Ceará", "Jacarecanga", "Varjota", "Mucuripe", "Caucaia (RMF)", "Eusébio (RMF)",
+    "Aquiraz (RMF)", "Maracanaú (RMF)", "Pacatuba (RMF)", "Itaitinga (RMF)"
+  ],
+  "conta": { "min": 150, "max": 3000, "passo": 10, "inicial": 480 },
+  "prazos": [36, 48, 60, 72],
+  "prazoInicial": 60
+}

@@ -1,0 +1,13 @@
+{
+  "_obs": "Valores ilustrativos. Valide tarifa, HSP e custo por kWp com a integradora cliente (Lei 14.300 e tarifa da Enel mudam).",
+  "tarifa_kwh": 0.95,
+  "hsp": 5.6,
+  "fator_perdas": 0.8,
+  "potencia_painel_kwp": 0.55,
+  "custo_por_kwp": 3500,
+  "desconto_fio_b": 0.15,
+  "reajuste_anual": 0.05,
+  "taxa_mensal": 0.016,
+  "disponibilidade_kwh": { "casa": 50, "comercio": 100 },
+  "area_por_placa_m2": 2.6
+}
