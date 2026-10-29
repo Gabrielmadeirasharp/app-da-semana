@@ -7,7 +7,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 01 | Simulador de Economia Solar (Jangada Solar) | `apps/01-solar` | `/solar/` | ✅ pronto |
 | 02 | Catálogo de Grade para Atacado (Lua de Algodão) | `apps/02-atacado` | `/atacado/` | ✅ pronto |
 | 03 | Espelho de Vendas (Varanda Nove) | `apps/03-espelho` | `/espelho/` | ✅ pronto |
-| 04 | Monte seu Passeio | `apps/04-passeios` | `/passeios/` | a fazer |
+| 04 | Monte seu Passeio (Rota Duna) | `apps/04-passeios` | `/passeios/` | ✅ pronto |
 | 05 | Orçamento de Festa | `apps/05-festa` | `/festa/` | a fazer |
 | 06 | Guia do Hóspede | `apps/06-guia` | `/guia/` | a fazer |
 | 07 | Pedido na Mesa | `apps/07-mesa` | `/mesa/` | a fazer |
@@ -49,6 +49,14 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Simulador: entrada %, 15% do preço em 26 mensais de obra, saldo financiado em 30 anos (Price, 11,5% a.a.).
 - Pendências: status real vindo do comercial; trava de reserva.
 
+## 04 · Passeios
+
+- Receptivo fictício **Rota Duna** (busca não encontrou empresa com esse nome).
+- Agenda simulada de 14 dias a partir de amanhã, com dias lotados por hash da data (estável) e vagas restantes; a data padrão é o primeiro dia com 6+ vagas para o vídeo não travar.
+- Busca no hotel é um switch + zona com taxa; nome do hotel entra na mensagem.
+- Barra de ação de todos os apps (e do template) ficou 100% opaca: texto rolando por trás aparecia no vídeo.
+- Pendências: agenda real; sinal por Pix.
+
 ## Próximo passo exato
 
-Começar o **App 04 · Monte seu Passeio**: `cp -r template apps/04-passeios`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (FareHarbor), `SPEC.md`, telas.
+Começar o **App 05 · Orçamento de Festa**: `cp -r template apps/05-festa`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Oni: três tipos de pacote), `SPEC.md`, telas.

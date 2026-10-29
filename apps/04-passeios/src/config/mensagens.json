@@ -1,0 +1,10 @@
+{
+  "reserva": "Quero reservar: {destino} em {data}, {adultos} adultos e {criancas} crianças, {modalidade}, busca em {zona}. Extras: {extras}. Total estimado: {total}. {nome}",
+  "textos": {
+    "capaTitulo": "Pra onde vamos amanhã?",
+    "capaSub": "Escolha o destino, a data e quantas pessoas. O preço aparece fechado antes de você chamar a gente.",
+    "semExtras": "nenhum",
+    "semBusca": "ponto de saída",
+    "reservarSub": "A gente confirma a vaga e o horário de busca pelo WhatsApp. Sem pagamento agora."
+  }
+}

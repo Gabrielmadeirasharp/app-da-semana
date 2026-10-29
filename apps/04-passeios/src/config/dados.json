@@ -1,0 +1,93 @@
+{
+  "ponto_saida": "Av. Beira-Mar, em frente à feirinha (Meireles)",
+  "dias_mostrados": 14,
+  "destinos": [
+    {
+      "id": "cumbuco",
+      "nome": "Cumbuco",
+      "km": 35,
+      "duracao": "Dia inteiro",
+      "saida": "08:00",
+      "retorno": "17:00",
+      "paisagem": "dunas",
+      "chamada": "Dunas, lagoas e kitesurf a 40 minutos de Fortaleza",
+      "dias_operacao": [0, 1, 2, 3, 4, 5, 6],
+      "vagas_por_dia": 16,
+      "compartilhado": { "preco_adulto": 90, "preco_crianca": 45 },
+      "privativo": { "preco_por_buggy": 450, "capacidade_buggy": 4 },
+      "inclui": ["Transporte ida e volta em van com ar", "Buggy com bugueiro credenciado", "Parada na Lagoa do Banana", "Seguro viagem"]
+    },
+    {
+      "id": "canoa",
+      "nome": "Canoa Quebrada",
+      "km": 160,
+      "duracao": "Dia inteiro",
+      "saida": "07:00",
+      "retorno": "18:30",
+      "paisagem": "falesias",
+      "chamada": "Falésias vermelhas e a Broadway de Canoa",
+      "dias_operacao": [0, 1, 2, 3, 4, 5, 6],
+      "vagas_por_dia": 14,
+      "compartilhado": { "preco_adulto": 120, "preco_crianca": 60 },
+      "privativo": { "preco_por_buggy": 650, "capacidade_buggy": 4 },
+      "inclui": ["Transporte ida e volta em van com ar", "Passeio de buggy pelas falésias", "Tempo livre na Broadway", "Seguro viagem"]
+    },
+    {
+      "id": "morro-branco",
+      "nome": "Morro Branco",
+      "km": 85,
+      "duracao": "Dia inteiro",
+      "saida": "07:30",
+      "retorno": "17:30",
+      "paisagem": "labirinto",
+      "chamada": "Labirinto de falésias coloridas e garrafinhas de areia",
+      "dias_operacao": [1, 3, 5, 6],
+      "vagas_por_dia": 12,
+      "compartilhado": { "preco_adulto": 100, "preco_crianca": 50 },
+      "privativo": { "preco_por_buggy": 500, "capacidade_buggy": 4 },
+      "inclui": ["Transporte ida e volta em van com ar", "Trilha guiada no labirinto", "Buggy até a Praia das Fontes", "Seguro viagem"]
+    },
+    {
+      "id": "lagoinha",
+      "nome": "Lagoinha",
+      "km": 110,
+      "duracao": "Dia inteiro",
+      "saida": "07:00",
+      "retorno": "17:30",
+      "paisagem": "praia",
+      "chamada": "Coqueiral, mar calmo e a lagoa da Encantada",
+      "dias_operacao": [0, 2, 4, 6],
+      "vagas_por_dia": 12,
+      "compartilhado": { "preco_adulto": 110, "preco_crianca": 55 },
+      "privativo": { "preco_por_buggy": 550, "capacidade_buggy": 4 },
+      "inclui": ["Transporte ida e volta em van com ar", "Buggy pelas dunas", "Parada na lagoa", "Seguro viagem"]
+    },
+    {
+      "id": "jeri",
+      "nome": "Jericoacoara",
+      "km": 300,
+      "duracao": "Bate e volta",
+      "saida": "05:00",
+      "retorno": "23:00",
+      "paisagem": "por-do-sol",
+      "chamada": "Pôr do sol na duna e Pedra Furada",
+      "dias_operacao": [2, 4, 6],
+      "vagas_por_dia": 10,
+      "compartilhado": { "preco_adulto": 220, "preco_crianca": 110 },
+      "privativo": { "preco_por_buggy": 1400, "capacidade_buggy": 4 },
+      "inclui": ["Transporte ida e volta", "Traslado 4x4 até a vila", "Pôr do sol na Duna do Por do Sol", "Seguro viagem"]
+    }
+  ],
+  "extras": [
+    { "id": "almoco", "rotulo": "Almoço na barraca", "descricao": "Peixe, baião e salada", "preco": 55, "tipo": "pessoa" },
+    { "id": "esquibunda", "rotulo": "Esquibunda e aerobunda", "descricao": "Nas dunas, com tirolesa", "preco": 30, "tipo": "pessoa" },
+    { "id": "fotos", "rotulo": "Fotógrafo no passeio", "descricao": "Fotos editadas no WhatsApp", "preco": 180, "tipo": "grupo" },
+    { "id": "cooler", "rotulo": "Cooler com água e gelo", "descricao": "Para o grupo todo", "preco": 40, "tipo": "grupo" }
+  ],
+  "zonas_busca": [
+    { "id": "iracema", "rotulo": "Meireles / Iracema", "taxa": 0 },
+    { "id": "mucuripe", "rotulo": "Mucuripe / Aldeota", "taxa": 0 },
+    { "id": "futuro", "rotulo": "Praia do Futuro", "taxa": 30 },
+    { "id": "outros", "rotulo": "Outros bairros de Fortaleza", "taxa": 50 }
+  ]
+}

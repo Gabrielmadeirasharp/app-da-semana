@@ -1,0 +1,20 @@
+{
+  "nome": "Rota Duna",
+  "slogan": "Receptivo e passeios de buggy",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#F26B3A",
+    "primaria-escura": "#C94C1C",
+    "acento": "#0B7285",
+    "acento-claro": "#D7EEF1",
+    "fundo": "#FFF8EF",
+    "superficie": "#FFFFFF",
+    "texto": "#10283A",
+    "suave": "#5B6873",
+    "borda": "#EFE3D2",
+    "alerta": "#B42318"
+  },
+  "fontes": { "titulo": "Unbounded", "corpo": "Nunito Sans" }
+}
