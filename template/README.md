@@ -29,4 +29,11 @@ Depois: `SPEC.md`, configs em `src/config/`, telas em `src/screens/`, cálculos 
 | `src/components/Botao.tsx`, `BotaoWhatsApp.tsx` | Botão de 56px (primário, secundário, WhatsApp) |
 | `src/components/Passos.tsx`, `Voltar.tsx` | Indicador de passo e link de voltar |
 
+Padrões prontos nos apps (copie quando precisar):
+- Abas fixas embaixo: `apps/06-guia/src/components/Abas.tsx`.
+- Painel que sobe de baixo (com portal): `apps/06-guia/src/screens/TelaPasseios.tsx`.
+- Status simulado com etapas: `apps/07-mesa/src/components/Status.tsx`.
+- Ícone escolhido por nome no JSON: `apps/05-festa/src/components/Icone.tsx`.
+- Textos em dois idiomas: `apps/06-guia` (`idiomas.json` + campos `{ pt, en }`).
+
 Cores obrigatórias em `marca.json > cores`: `primaria`, `primaria-escura`, `acento`, `acento-claro`, `fundo`, `superficie`, `texto`, `suave`, `borda`, `alerta`. Para uma cor nova, adicione no JSON e em `@theme` no `index.css`.

@@ -28,3 +28,10 @@ Novos apps começam copiando `template/`.
 
 ## Fluxo por app
 Pesquisa rápida → `SPEC.md` → código → build + testes + screenshots + conferir mensagem → `README.md` → commit `feat(<slug>): protótipo completo` → `PROGRESSO.md`.
+Ao terminar um app, marque `"pronto": true` em `apps.json` (é o que entra na galeria e no deploy).
+
+## Armadilhas já encontradas
+- `position: fixed` dentro da tela não funciona (a animação de troca de tela vira o "container"). Modal, painel e botão flutuante: use `createPortal(..., document.body)` (ver `apps/06-guia/src/screens/TelaPasseios.tsx`).
+- Telas com abas fixas embaixo não usam `BarraAcao` (as duas brigam pelo rodapé). Ponha o botão no fim do conteúdo (ver `apps/07-mesa`).
+- Na ferramenta Bash deste ambiente, heredoc com apóstrofo (`I'm`, `'--x'`) quebra o comando: crie arquivos com a ferramenta Write.
+- Dado "simulado" (lotação, status, vagas) usa hash/semente fixa para o vídeo sair igual toda vez.

@@ -13,7 +13,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 07 | Pedido na Mesa (Barraca Arrebol) | `apps/07-mesa` | `/mesa/` | ✅ pronto |
 | 08 | Status do Carro (Garagem Carnaúba) | `apps/08-oficina` | `/oficina/` | ✅ pronto |
 | 09 | Banho e Tosa (Pata de Areia) | `apps/09-pet` | `/pet/` | ✅ pronto |
-| 10 | Tatame | `apps/10-tatame` | `/tatame/` | a fazer |
+| 10 | Tatame (Arena Mandacaru) | `apps/10-tatame` | `/tatame/` | ✅ pronto |
 
 Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depois do primeiro deploy).
 
@@ -97,6 +97,39 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Linha do tempo do banho avança sozinha a cada ~2 s enquanto a tela está aberta (simulação marcada); ao chegar em "Pronto" conta +1 no pacote.
 - O roteiro do Playwright teve um timeout intermitente uma vez; na segunda execução passou.
 
+## 10 · Tatame
+
+- Academia fictícia **Arena Mandacaru** (busca não encontrou academia de jiu-jitsu com esse nome; Mandacaru também é nome de bairro, só usamos como marca).
+- Alternância Aluno/Professor no topo, sem login; cada modo tem 2 abas (4 telas no total).
+- Check-in simulado ("Simular leitura do QR") soma +1 aula ao aluno logado e marca o dia no calendário.
+- Critério de graduação, limite de "sumido" e textos das mensagens ficam no JSON.
+
+## Publicar no GitHub Pages (falta fazer)
+
+O repositório ainda não está no GitHub (não publiquei nada sozinho). Com o `gh` já logado, na pasta do projeto:
+
+```bash
+gh repo create app-da-semana --public --source . --push
+gh api -X POST repos/{owner}/app-da-semana/pages -f build_type=workflow
+gh run watch
+```
+
+(o segundo comando liga o Pages no modo "GitHub Actions"; se der erro, faça em Settings → Pages → Source: GitHub Actions e rode `gh workflow run pages.yml`.)
+
+Links depois do deploy: `https://<usuario>.github.io/app-da-semana/` (galeria) e `.../solar/`, `.../atacado/`, `.../espelho/`, `.../passeios/`, `.../festa/`, `.../guia/`, `.../mesa/`, `.../oficina/`, `.../pet/`, `.../tatame/`.
+
+Links prontos para o vídeo (estado inicial limpo):
+- Guia: `.../guia/?reset=1&h=Ana&q=12&ultimo=1`
+- Mesa: `.../mesa/?reset=1&mesa=4&demo=1`
+- Oficina: `.../oficina/?reset=1&os=1234&demo=1`
+- Demais: `.../<slug>/?reset=1`
+
+## Pendências do Gabriel
+
+1. **Número do WhatsApp** da demonstração: trocar `5585999999999` em `apps/*/src/config/marca.json` (e em `apps/10-tatame/src/config/dados.json`, campo `whatsapp` dos alunos).
+2. Criar o repositório e ligar o Pages (comandos acima).
+3. Validar números de nicho com clientes reais: tarifa/custo do solar, tabela de vendas do espelho, preços de passeios e buffets.
+
 ## Próximo passo exato
 
-Começar o **App 10 · Tatame**: `cp -r template apps/10-tatame`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Gymdesk/House of Grapplers), `SPEC.md`, telas. Atenção: modal/painel fixo deve usar portal (ver 06); com abas embaixo, não usar `BarraAcao` sticky (ver 07).
+Todos os 10 apps estão prontos. Próximos passos sugeridos: publicar (comandos acima), trocar o número do WhatsApp e gravar os Reels na ordem 01 → 10.
