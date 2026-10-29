@@ -1,0 +1,20 @@
+{
+  "nome": "Barraca Arrebol",
+  "slogan": "Praia do Futuro",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#FF6B35",
+    "primaria-escura": "#D9480F",
+    "acento": "#00938F",
+    "acento-claro": "#D5F3F1",
+    "fundo": "#FFF6E9",
+    "superficie": "#FFFFFF",
+    "texto": "#0E2A3B",
+    "suave": "#5C6B74",
+    "borda": "#F1E2CC",
+    "alerta": "#C2410C"
+  },
+  "fontes": { "titulo": "Lilita One", "corpo": "Rubik" }
+}

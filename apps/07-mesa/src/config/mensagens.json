@@ -1,0 +1,15 @@
+{
+  "pedido": "*Mesa {mesa}*\n{itens}\nTotal do pedido: {total}",
+  "item": "{qtd}x {nome} · {valor}",
+  "garcom": "*Mesa {mesa}* pediu: {motivo}",
+  "textos": {
+    "semMesa": "Escaneie o QR code da mesa para pedir.",
+    "repetir": "Repetir última rodada",
+    "repetirSub": "Refaz as bebidas do último pedido",
+    "statusDemo": "simulação para demonstração",
+    "garcomSub": "Toque no que precisa. O garçom recebe na hora.",
+    "garcomACaminho": "Chamado enviado",
+    "contaSub": "Tudo o que a mesa pediu até agora.",
+    "servico": "Serviço ({pct}%)"
+  }
+}

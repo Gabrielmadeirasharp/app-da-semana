@@ -10,7 +10,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 04 | Monte seu Passeio (Rota Duna) | `apps/04-passeios` | `/passeios/` | ✅ pronto |
 | 05 | Orçamento de Festa (Bambolê Festas) | `apps/05-festa` | `/festa/` | ✅ pronto |
 | 06 | Guia do Hóspede (Pousada Alpendre) | `apps/06-guia` | `/guia/` | ✅ pronto |
-| 07 | Pedido na Mesa | `apps/07-mesa` | `/mesa/` | a fazer |
+| 07 | Pedido na Mesa (Barraca Arrebol) | `apps/07-mesa` | `/mesa/` | ✅ pronto |
 | 08 | Status do Carro | `apps/08-oficina` | `/oficina/` | a fazer |
 | 09 | Banho e Tosa | `apps/09-pet` | `/pet/` | a fazer |
 | 10 | Tatame | `apps/10-tatame` | `/tatame/` | a fazer |
@@ -73,6 +73,15 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Painel de reserva do passeio usa portal no `<body>`: a animação de troca de tela fazia o `position: fixed` ficar preso dentro da tela.
 - PWA offline ficou de fora (dependência extra com risco de compatibilidade com o Vite 8). Restaurantes e coordenadas são fictícios.
 
+## 07 · Mesa
+
+- Barraca fictícia **Barraca Arrebol** (Praia do Futuro; busca não encontrou barraca com esse nome).
+- `?demo=1` cria uma rodada inicial para o "Repetir última rodada" ter o que repetir no vídeo.
+- Conta por mesa no `localStorage` do celular de quem pede (limitação do protótipo; documentado no README).
+- QR codes com a lib `qrcode` (MIT), única dependência extra da série até aqui.
+- Status de pedido e de garçom são simulados e marcados como "simulação para demonstração".
+- Não reaproveitei código do QR Menu Card (não confirmei a licença); só o padrão de UX.
+
 ## Próximo passo exato
 
-Começar o **App 07 · Pedido na Mesa**: `cp -r template apps/07-mesa`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (QR Menu Card: conferir licença), `SPEC.md`, telas, rota `#/qr`. Atenção: qualquer modal/painel fixo deve usar portal (ver 06).
+Começar o **App 08 · Status do Carro**: `cp -r template apps/08-oficina`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (DVI: Tekmetric/AutoLeap), `SPEC.md`, telas, `?os=1234` e `?demo=1`. Atenção: modal/painel fixo deve usar portal (ver 06); com abas embaixo, não usar `BarraAcao` sticky (ver 07).

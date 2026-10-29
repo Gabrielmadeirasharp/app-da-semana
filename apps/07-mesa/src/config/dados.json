@@ -1,0 +1,40 @@
+{
+  "mesas": 30,
+  "taxa_servico": 0.1,
+  "categorias": [
+    { "id": "petiscos", "nome": "Petiscos" },
+    { "id": "mar", "nome": "Do mar" },
+    { "id": "bebidas", "nome": "Bebidas" },
+    { "id": "drinks", "nome": "Drinks" },
+    { "id": "doces", "nome": "Doces" }
+  ],
+  "cardapio": [
+    { "id": "caranguejo", "nome": "Caranguejo", "descricao": "Unidade, com pirão e farofa", "preco": 14, "categoria": "mar", "icone": "shrimp", "cor": "#F4A261" },
+    { "id": "isca-peixe", "nome": "Isca de peixe", "descricao": "Serve 3, com molho tártaro", "preco": 62, "categoria": "petiscos", "icone": "fish", "cor": "#E9C46A" },
+    { "id": "camarao-alho", "nome": "Camarão ao alho", "descricao": "Porção de 400 g", "preco": 89, "categoria": "mar", "icone": "shrimp", "cor": "#F28482" },
+    { "id": "peixe-frito", "nome": "Peixe frito inteiro", "descricao": "Serve 3, com baião e salada", "preco": 139, "categoria": "mar", "icone": "fish", "cor": "#84A59D" },
+    { "id": "batata", "nome": "Batata frita", "descricao": "Porção grande", "preco": 32, "categoria": "petiscos", "icone": "popcorn", "cor": "#F6BD60" },
+    { "id": "macaxeira", "nome": "Macaxeira frita", "descricao": "Com manteiga da terra", "preco": 30, "categoria": "petiscos", "icone": "salad", "cor": "#C9B79C" },
+    { "id": "cerveja", "nome": "Cerveja 600 ml", "descricao": "Bem gelada", "preco": 16, "categoria": "bebidas", "icone": "beer", "cor": "#F9C74F", "bebida": true },
+    { "id": "agua-coco", "nome": "Água de coco", "descricao": "Na casca", "preco": 9, "categoria": "bebidas", "icone": "citrus", "cor": "#90BE6D", "bebida": true },
+    { "id": "refri", "nome": "Refrigerante lata", "descricao": "350 ml", "preco": 7, "categoria": "bebidas", "icone": "cup", "cor": "#4D908E", "bebida": true },
+    { "id": "agua", "nome": "Água mineral", "descricao": "500 ml", "preco": 5, "categoria": "bebidas", "icone": "water", "cor": "#8ECAE6", "bebida": true },
+    { "id": "caipirinha", "nome": "Caipirinha de cajá", "descricao": "Com cachaça ou vodka", "preco": 22, "categoria": "drinks", "icone": "martini", "cor": "#F4D35E", "bebida": true },
+    { "id": "suco", "nome": "Suco de caju", "descricao": "Copo de 500 ml", "preco": 12, "categoria": "drinks", "icone": "glass", "cor": "#EE964B", "bebida": true },
+    { "id": "sorvete", "nome": "Sorvete de tapioca", "descricao": "Duas bolas", "preco": 14, "categoria": "doces", "icone": "icecream", "cor": "#F7CAD0" }
+  ],
+  "motivos_garcom": [
+    { "id": "gelo", "rotulo": "Gelo", "icone": "snowflake" },
+    { "id": "guardanapo", "rotulo": "Guardanapo", "icone": "hand" },
+    { "id": "cardapio", "rotulo": "Cardápio", "icone": "book" },
+    { "id": "conta", "rotulo": "Fechar a conta", "icone": "receipt" },
+    { "id": "talheres", "rotulo": "Talheres e pratos", "icone": "utensils" },
+    { "id": "outro", "rotulo": "Outro", "icone": "bell" }
+  ],
+  "rodada_demo": [
+    { "id": "cerveja", "qtd": 3 },
+    { "id": "agua-coco", "qtd": 1 },
+    { "id": "isca-peixe", "qtd": 1 },
+    { "id": "caranguejo", "qtd": 4 }
+  ]
+}
