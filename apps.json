@@ -7,6 +7,6 @@
   { "pasta": "06-guia", "slug": "guia", "titulo": "Guia do Hóspede", "marca": "Pousada Alpendre", "nicho": "Pousadas do litoral", "palavra": "GUIA", "pronto": true },
   { "pasta": "07-mesa", "slug": "mesa", "titulo": "Pedido na Mesa", "marca": "Barraca Arrebol", "nicho": "Barracas de praia", "palavra": "MESA", "pronto": true },
   { "pasta": "08-oficina", "slug": "oficina", "titulo": "Status do Carro", "marca": "Garagem Carnaúba", "nicho": "Oficinas e estética automotiva", "palavra": "OFICINA", "pronto": true },
-  { "pasta": "09-pet", "slug": "pet", "titulo": "Banho e Tosa", "marca": "", "nicho": "Pet shops", "palavra": "BANHO", "pronto": false },
+  { "pasta": "09-pet", "slug": "pet", "titulo": "Banho e Tosa", "marca": "Pata de Areia", "nicho": "Pet shops", "palavra": "BANHO", "pronto": true },
   { "pasta": "10-tatame", "slug": "tatame", "titulo": "Tatame", "marca": "", "nicho": "Academias de luta", "palavra": "OSS", "pronto": false }
 ]

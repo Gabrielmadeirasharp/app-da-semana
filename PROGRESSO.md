@@ -12,7 +12,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 06 | Guia do Hóspede (Pousada Alpendre) | `apps/06-guia` | `/guia/` | ✅ pronto |
 | 07 | Pedido na Mesa (Barraca Arrebol) | `apps/07-mesa` | `/mesa/` | ✅ pronto |
 | 08 | Status do Carro (Garagem Carnaúba) | `apps/08-oficina` | `/oficina/` | ✅ pronto |
-| 09 | Banho e Tosa | `apps/09-pet` | `/pet/` | a fazer |
+| 09 | Banho e Tosa (Pata de Areia) | `apps/09-pet` | `/pet/` | ✅ pronto |
 | 10 | Tatame | `apps/10-tatame` | `/tatame/` | a fazer |
 
 Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depois do primeiro deploy).
@@ -90,6 +90,13 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - `?demo=1` mostra um botão discreto (portal, canto superior direito) que avança as etapas.
 - Pendências: painel da oficina; histórico por placa.
 
+## 09 · Pet
+
+- Pet shop fictício **Pata de Areia** (busca não encontrou com esse nome).
+- Retrato do pet em SVG pintado com a cor da pelagem do cadastro; no report card ganha laço e brilho (é a "foto do pet pronto").
+- Linha do tempo do banho avança sozinha a cada ~2 s enquanto a tela está aberta (simulação marcada); ao chegar em "Pronto" conta +1 no pacote.
+- O roteiro do Playwright teve um timeout intermitente uma vez; na segunda execução passou.
+
 ## Próximo passo exato
 
-Começar o **App 09 · Banho e Tosa**: `cp -r template apps/09-pet`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (MoeGo report card), `SPEC.md`, telas. Atenção: modal/painel fixo deve usar portal (ver 06); com abas embaixo, não usar `BarraAcao` sticky (ver 07).
+Começar o **App 10 · Tatame**: `cp -r template apps/10-tatame`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (Gymdesk/House of Grapplers), `SPEC.md`, telas. Atenção: modal/painel fixo deve usar portal (ver 06); com abas embaixo, não usar `BarraAcao` sticky (ver 07).

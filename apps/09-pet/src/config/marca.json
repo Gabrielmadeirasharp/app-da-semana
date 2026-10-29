@@ -1,0 +1,20 @@
+{
+  "nome": "Pata de Areia",
+  "slogan": "Banho e tosa",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#2E86AB",
+    "primaria-escura": "#1F6587",
+    "acento": "#EE8B3A",
+    "acento-claro": "#FDEBD8",
+    "fundo": "#FBF7F2",
+    "superficie": "#FFFFFF",
+    "texto": "#2A2420",
+    "suave": "#6C625B",
+    "borda": "#EEE3D6",
+    "alerta": "#C2410C"
+  },
+  "fontes": { "titulo": "Fredoka", "corpo": "Lexend" }
+}

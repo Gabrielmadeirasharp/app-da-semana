@@ -1,0 +1,15 @@
+{
+  "agendamento": "Agendamento: {pet} ({porte}), {servico} em {data} às {hora}.",
+  "buscar": "Estou indo buscar {artigo} {pet}!",
+  "renovar": "Quero renovar o {pacote} d{artigo} {pet}.",
+  "remarcar": "Quero marcar o próximo banho d{artigo} {pet}. Sugestão: {data}.",
+  "textos": {
+    "agendarTitulo": "Agendar banho",
+    "noBanhoTitulo": "No banho",
+    "semAgendamento": "Nenhum banho em andamento. Agende primeiro.",
+    "statusDemo": "simulação para demonstração",
+    "prontoTitulo": "{pet} está pront{genero}!",
+    "pacoteTitulo": "Pacote do mês",
+    "proximoTitulo": "Próximo banho"
+  }
+}

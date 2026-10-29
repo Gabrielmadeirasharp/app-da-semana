@@ -1,0 +1,21 @@
+{
+  "endereco": "Rua fictícia, 45 · Meireles",
+  "portes": { "pequeno": "Pequeno", "medio": "Médio", "grande": "Grande" },
+  "pets": [
+    { "id": "thor", "nome": "Thor", "artigo": "o", "raca": "Shih-tzu", "porte": "pequeno", "idade": "4 anos", "obs": "Tem medo de secador alto", "cor": "#C99A6B", "orelha": "#8C6239" },
+    { "id": "mel", "nome": "Mel", "artigo": "a", "raca": "Golden retriever", "porte": "grande", "idade": "6 anos", "obs": "Pele sensível: shampoo hipoalergênico", "cor": "#E2B04A", "orelha": "#B9852C" }
+  ],
+  "servicos": [
+    { "id": "banho", "nome": "Banho", "descricao": "Shampoo, condicionador, secagem e perfume", "duracao": "1h30", "precos": { "pequeno": 55, "medio": 70, "grande": 95 } },
+    { "id": "higienica", "nome": "Banho + tosa higiênica", "descricao": "Patinhas, barriga e região íntima", "duracao": "2h", "precos": { "pequeno": 65, "medio": 85, "grande": 115 } },
+    { "id": "completa", "nome": "Banho + tosa completa", "descricao": "Tosa na máquina ou tesoura", "duracao": "2h30", "precos": { "pequeno": 85, "medio": 110, "grande": 150 } }
+  ],
+  "agenda": { "dias": 6, "fecha_domingo": true, "horarios": ["08:00", "09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00"] },
+  "etapas_banho": ["Chegou", "Banho", "Secagem", "Tosa", "Pronto"],
+  "report": {
+    "tosadora": "Joana",
+    "nota": "Comportou muito bem! Cortei as unhas e limpei os ouvidos. Pele sem alergias.",
+    "produtos": ["Shampoo neutro", "Condicionador de aveia", "Perfume suave"]
+  },
+  "pacote": { "nome": "Plano 4 banhos", "banhos_mes": 4, "usados_inicio": 2, "preco": 190, "renova_em_dias": 12, "frequencia_dias": 7 }
+}
