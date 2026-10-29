@@ -1,0 +1,20 @@
+{
+  "nome": "Garagem Carnaúba",
+  "slogan": "Acompanhe seu carro",
+  "logo": "img/logo.svg",
+  "whatsapp": "5585999999999",
+  "cidade": "Fortaleza",
+  "cores": {
+    "primaria": "#F2B705",
+    "primaria-escura": "#B88A00",
+    "acento": "#1D7A5F",
+    "acento-claro": "#DDF0E8",
+    "fundo": "#F2F2EE",
+    "superficie": "#FFFFFF",
+    "texto": "#16191C",
+    "suave": "#5E646A",
+    "borda": "#DEDED6",
+    "alerta": "#C93A3A"
+  },
+  "fontes": { "titulo": "Chakra Petch", "corpo": "Barlow" }
+}

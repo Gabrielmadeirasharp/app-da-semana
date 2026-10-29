@@ -1,0 +1,36 @@
+{
+  "endereco": "Av. fictícia, 1200 · Parquelândia",
+  "avaliacao_google": "https://www.google.com/search?q=avaliar+oficina",
+  "etapas": [
+    { "id": "recebido", "rotulo": "Recebido" },
+    { "id": "diagnostico", "rotulo": "Diagnóstico" },
+    { "id": "aguardando", "rotulo": "Aguardando aprovação" },
+    { "id": "servico", "rotulo": "Em serviço" },
+    { "id": "pronto", "rotulo": "Pronto" }
+  ],
+  "cores_achado": {
+    "vermelho": { "rotulo": "Precisa trocar agora", "cor": "#C93A3A" },
+    "amarelo": { "rotulo": "Atenção em breve", "cor": "#E0A100" },
+    "verde": { "rotulo": "Tudo certo", "cor": "#1D7A5F" }
+  },
+  "ordens": [
+    {
+      "os": "1234",
+      "cliente": "Marcos",
+      "carro": "Hatch 1.0 2019 prata",
+      "placa": "QXB4E21",
+      "km": 68450,
+      "entrada": "2026-10-29T08:20:00",
+      "etapa_inicial": "aguardando",
+      "previsao_pronto": "hoje, 17h30",
+      "achados": [
+        { "id": "pastilha", "titulo": "Pastilhas de freio dianteiras", "cor": "vermelho", "nota": "Restam 2 mm. O mínimo seguro é 3 mm.", "foto": "pastilha", "peca": 189, "mao_obra": 90 },
+        { "id": "oleo", "titulo": "Troca de óleo e filtro", "cor": "vermelho", "nota": "Óleo vencido há 4.000 km, escuro e grosso.", "foto": "oleo", "peca": 168, "mao_obra": 40 },
+        { "id": "pneu", "titulo": "Pneus dianteiros", "cor": "amarelo", "nota": "Sulco de 2,5 mm. Troca nos próximos 3 meses.", "foto": "pneu", "peca": 760, "mao_obra": 60 },
+        { "id": "palheta", "titulo": "Palhetas do limpador", "cor": "amarelo", "nota": "Borracha ressecada, deixando faixas no vidro.", "foto": "palheta", "peca": 79, "mao_obra": 0 },
+        { "id": "bateria", "titulo": "Bateria", "cor": "verde", "nota": "Teste de carga ok: 12,6 V.", "foto": "bateria", "peca": 0, "mao_obra": 0 },
+        { "id": "suspensao", "titulo": "Suspensão", "cor": "verde", "nota": "Sem folgas nem vazamentos.", "foto": "suspensao", "peca": 0, "mao_obra": 0 }
+      ]
+    }
+  ]
+}

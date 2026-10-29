@@ -11,7 +11,7 @@ Leia `CLAUDE.md` antes de continuar. Lista de apps e slugs publicados: `apps.jso
 | 05 | Orçamento de Festa (Bambolê Festas) | `apps/05-festa` | `/festa/` | ✅ pronto |
 | 06 | Guia do Hóspede (Pousada Alpendre) | `apps/06-guia` | `/guia/` | ✅ pronto |
 | 07 | Pedido na Mesa (Barraca Arrebol) | `apps/07-mesa` | `/mesa/` | ✅ pronto |
-| 08 | Status do Carro | `apps/08-oficina` | `/oficina/` | a fazer |
+| 08 | Status do Carro (Garagem Carnaúba) | `apps/08-oficina` | `/oficina/` | ✅ pronto |
 | 09 | Banho e Tosa | `apps/09-pet` | `/pet/` | a fazer |
 | 10 | Tatame | `apps/10-tatame` | `/tatame/` | a fazer |
 
@@ -82,6 +82,14 @@ Link publicado = `https://<usuario>.github.io/<repo>` + caminho da tabela (depoi
 - Status de pedido e de garçom são simulados e marcados como "simulação para demonstração".
 - Não reaproveitei código do QR Menu Card (não confirmei a licença); só o padrão de UX.
 
+## 08 · Oficina
+
+- Oficina fictícia **Garagem Carnaúba** (busca não encontrou oficina com esse nome); placa e carro genéricos ("Hatch 1.0").
+- "Fotos" dos achados são ilustrações SVG escuras em close; no produto real a oficina sobe a foto.
+- Item sem decisão vai como "recusado" na mensagem, para o vídeo não precisar de 4 toques extras.
+- `?demo=1` mostra um botão discreto (portal, canto superior direito) que avança as etapas.
+- Pendências: painel da oficina; histórico por placa.
+
 ## Próximo passo exato
 
-Começar o **App 08 · Status do Carro**: `cp -r template apps/08-oficina`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (DVI: Tekmetric/AutoLeap), `SPEC.md`, telas, `?os=1234` e `?demo=1`. Atenção: modal/painel fixo deve usar portal (ver 06); com abas embaixo, não usar `BarraAcao` sticky (ver 07).
+Começar o **App 09 · Banho e Tosa**: `cp -r template apps/09-pet`, ajustar `package.json`/`PREFIXO_STORAGE`, `npm install` na raiz, pesquisa rápida (MoeGo report card), `SPEC.md`, telas. Atenção: modal/painel fixo deve usar portal (ver 06); com abas embaixo, não usar `BarraAcao` sticky (ver 07).

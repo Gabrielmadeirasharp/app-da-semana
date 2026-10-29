@@ -1,0 +1,15 @@
+{
+  "aprovacao": "OS {os} · {carro} ({placa}). Aprovo: {itens_aprovados}. Recuso: {itens_recusados}. Total aprovado: {total}.",
+  "retirada": "OS {os} · {carro} ({placa}). Vi que está pronto. Passo para buscar {quando}.",
+  "textos": {
+    "nenhum": "nenhum",
+    "aguardandoAviso": "Precisamos da sua aprovação para continuar.",
+    "aprovarSub": "Aprove ou recuse cada item. Só fazemos o que você aprovar.",
+    "prontoTitulo": "Seu carro está pronto",
+    "prontoSub": "Pode buscar a partir de agora até as 18h.",
+    "naoPronto": "Ainda em serviço. Previsão: {previsao}.",
+    "avaliarTitulo": "Como foi o atendimento?",
+    "avaliarTexto": "Sua avaliação no Google ajuda outros motoristas a encontrar a gente. Pedimos para todos os clientes, sem filtro.",
+    "avaliarBotao": "Avaliar no Google"
+  }
+}
